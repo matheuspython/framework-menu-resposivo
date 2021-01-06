@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-header">
+            <div class="logo">Empresa X</div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="">Localização</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div onclick="abreMenuEescolheTipo('aside')" class="btn-menu-mobile"></div>
+        </div>
+
+        <nav class="menu-mobile">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Sobre</a>
+                </li>
+                <li>
+                    <a href="">Localização</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <nav class="menu-mobile-aside">
+            <div onclick="fecharMenu()" class="metade-tela-aside"></div>
+            <aside class="aside">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="">Localização</a>
+                    </li>
+                </ul>
+            </aside>
+            </div>
+
+    </header>
+
+
+
+
+    <script src="../js/header.js"></script>
+</body>
+
+</html>
